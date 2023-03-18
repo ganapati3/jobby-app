@@ -1,0 +1,58 @@
+.job-item-container {
+  background-color: #272727;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  margin-right: 20px;
+}
+.logo-section {
+  display: flex;
+}
+.company-logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.job-title {
+  color: white;
+  font-family: 'roboto';
+  font-size: 20px;
+  margin-top: 10px;
+}
+.rating {
+  color: white;
+  font-family: 'roboto';
+  margin-right: 20px;
+}
+
+h1 {
+  margin: 0px;
+}
+.icons {
+  color: white;
+  margin-right: 10px;
+}
+.employment-section {
+  display: flex;
+  justify-content: space-between;
+}
+.employment {
+  display: flex;
+}
+hr {
+  margin: 0px;
+}
+.job-description {
+  color: white;
+  font-family: 'roboto';
+}
+@media (max-width: 768px) {
+  .job-title {
+    font-size: 20px;
+  }
+  .job-item-container {
+    width: 90vw;
+  }
+}

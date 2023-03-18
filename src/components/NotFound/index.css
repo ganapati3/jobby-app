@@ -1,0 +1,23 @@
+.not-found-container {
+  background-color: #202020;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.not-found-img {
+  width: 40%;
+}
+.not-found-text {
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 600;
+  margin-top: 20px;
+}
+.des {
+  color: white;
+  font-family: 'Roboto';
+  margin-top: 20px;
+}
